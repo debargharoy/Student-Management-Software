@@ -1,0 +1,57 @@
+#include<global.h>
+
+void main()
+{
+clrscr();
+fstream file1,file2;    int l,i,k,p,q;
+char s[100],r;
+file1.open("e:/SPTHX.CDT",ios::in|ios::binary);
+file2.open("e:/RAHUL.DAT",ios::out|ios::binary|ios::trunc);
+while(file1)
+{
+file1.read((char*)&s,sizeof(s));
+l=strlen(s);
+for(i=0;i<l;++i)
+{
+k=int(s[i]);
+ p=k/16;
+ q=k%16;
+ file2<<p;
+ if(q>=10&&q<=15)
+ {
+    if(q==10)
+    {
+    r='A';
+    }
+     if(q==11)
+    {
+    r='B';
+    }
+     if(q==12)
+    {
+    r='C';
+    }
+     if(q==13)
+    {
+    r='D';
+    }
+     if(q==14)
+    {
+    r='E';
+    }
+     if(q==15)
+    {
+    r='F';
+    }
+  file2<<r;
+ }
+ else
+ {
+ file2<<q;
+ }
+}
+}
+file1.close();
+file2.close();
+getch();
+}

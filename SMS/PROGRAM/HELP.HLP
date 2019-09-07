@@ -1,0 +1,62 @@
+About Student Management Software (SMS) : 
+The Software has been developed as a part of the School
+Project of the Developers. Though the topic is one of
+the most Popular Project Topics among the school
+children, yet it has been selected because of its
+simplicity in concept.
+
+Message From The Developers : 
+Though, the Project Topic exists every year, but this
+time, it is Very Special. Our aim was, the
+development of an interface which is user-friendly,
+as well as attractive.
+
+Help : 
+To exit Help press "Esc".
+Throughout the program, you will find a row to the
+bottom of the window in light-gray color which indicates
+the various keys that can be used in the window.
+In general, "Esc" key is for moving back to the previous
+screen, while "Enter/Return" is for activating the
+choice on which the arrow is placed.
+You can use the Cursor(Arrow) Keys for navigation through
+the screen, while in some places "Tab" can also be used
+to navigate through the choices.
+In the Credits window press any key to return back to
+Main Menu.
+
+You can Register as an Individual Teacher or on behalf
+of your Institution. You can create records as per the
+necessity, but all will not be displayed due to screen 
+size limitation. You can search to view the record. Press 
+"Enter" to browse the search results.
+
+After login, you can change the interface color from the
+Settings page, view your details, etc.
+
+NOTE FOR DEVELOPERS : 
+If you wish to get the Source Code of the Software,
+Press "Ctrl+D" at the main menu screen, which will load
+the developer environment, from where you can generate
+the source code after providing the Developer Password.
+This Software has been developed using Borland Turbo C++ 3.0 
+with model size set to "Medium". To change model size-
+follow the below chart : 
+Options->Compiler->Code generation...->Model->Medium->Ok
+You are allowed to modify the source code to suit your
+need, but please note that after modification you need 
+to generate a new application yourself as the present
+application will not implement the changes.
+If in case, you do not have the Developer Password, you
+can request the password by getting in touch with us at
+ softtechnetwork@gmail.com 
+If you encounter an Error similar to
+" Necessary Source File(s) Missing ",
+you can download the source files from
+ http://www.softtechnet.webege.com 
+
+Thank You,
+Developers.
+
+
+

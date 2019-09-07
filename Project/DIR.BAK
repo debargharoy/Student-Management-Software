@@ -1,0 +1,6 @@
+#include<direct.h>
+void main()
+{
+mkdir("c:/RMS");
+//rmdir("d:/debargha");
+}
